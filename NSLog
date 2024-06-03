@@ -1,0 +1,23 @@
+{
+  CPoint *origin; //点
+}
+-(void) print
+{
+  NSLog(@"the rect:(x:%i, y:%i, w:%i,h:%i)",origin.x, origin.y, w, h);
+}
+-(int) w
+{
+  return w;
+}
+-(int) h
+{
+  return h;
+}
+-(void) setW:(int)vw
+{
+  w = vw;
+}
+-(void) setH:(int)vh
+{
+  h = vh;
+}
